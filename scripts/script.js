@@ -1,4 +1,4 @@
-alert("Ketuk Pintu nya ya hehe);
+
       
 var requestAnimationFrame,
 	canvas,
