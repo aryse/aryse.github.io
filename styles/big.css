@@ -1,16 +1,4 @@
-/* Preloader */
-#loader{
-	position:fixed; 
-	background:#252525; 
-	width:100%; 
-	height:100%; 
-	z-index:999;
-	opacity:1;
-	transition:opacity 1s linear;
-	color:#ffffff;
-	overflow:hidden;
-}
-/* Preloader */
+
    .mobileside{
     display: none;
 }
