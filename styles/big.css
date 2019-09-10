@@ -127,6 +127,12 @@ z-index: 1001;
 	transition: all 0.3s 1s ease-out;
 }
 /* END......*/
+.no-js #loader-wrapper {
+	display: none;
+}
+.progress {
+	background-color: rgba(255, 64, 129, 0.22);
+}
    .mobileside{
     display: none;
 }
