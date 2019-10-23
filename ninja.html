@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+        <style type="text/css">
+          
+
+body {
+    margin: 0;
+    color: #fff;
+}
+canvas
+{
+    position: absolute;
+    z-index: 0;
+}
+#restart
+{
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 25;
+    display: none;
+}
+#div
+{
+    height: 40%;
+    width: 60%;
+    position: absolute;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1), -2px -2px 3px rgba(0,0,0,0.1);
+}
+#restartBtn
+{
+    position: absolute;
+    top: 70%;
+    height: 32px;
+    width: 100px;
+    border: none;
+}
+button:focus
+{
+    outline: none;
+}
+
+#show
+{
+    height: 100vh;
+    width: 100vw;
+    background: url('https://i.ibb.co/ynhZHBY/game-background-2.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+#play
+{
+    height: 50px;
+    width: 180px;
+    border: none;
+    background: transparent;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15pt;
+    color: #262626;
+    cursor: pointer;
+    color: #671623;
+    text-transform: uppercase;
+    
+    
+}
+#load
+{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 105;
+    color: #000;
+}
+#score
+{
+    position: absolute;
+    font-size: 15pt;
+    color: #fff;
+    z-index: 10;
+    left: 10px;
+    top: 5px;
+}
+        </style>
+        
+    </head>
+    <body>
+        <span id="score">00</span>
+      
+       
+       <div id="restart">
+           <div id="div">
+               Cie Kalah :p
+           <button id="restartBtn">Penasaran?</button>
+           </div>
+           
+       </div>
+       
+       <div id="show">
+           <button id="play">Mulai</button>
+           
+       </div>
+       
+       <div id="load">
+           Mohon Tunggu...
+       </div>
+       <script type="text/javascript">
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+//*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°//
+
+
+//           NAME : NINJA RUN
+//           DATE : 21 - 05- 2019
+//           AUTHOR : Ariya        
+
+//          I JUST INSPIRATION 😂
+//*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°*°//
+
+
+
+
+
+
+
+
+
+
+
+
+
+let w = window.innerWidth;
+let h = window.innerHeight;
+let scores = 0;
+let bg;
+let dom_show = false;
+let t;
+
+
+
+
+
+
+
+
+
+//*°*°*°*°*°*°*°*Component°*°*°*°*°*°*°*°*°//
+
+
+
+
+
+
+
+
+
+
+
+let player;
+let pw = 30;
+let ph = 50;
+let ground = 100;
+let pl_smash = [
+'https://i.ibb.co/1Th0029/Run-000.png',
+'https://i.ibb.co/DbBDNyK/Run-001.png',
+'https://i.ibb.co/1mxRTpG/Run-002.png',
+'https://i.ibb.co/6gv97d3/Run-003.png',
+'https://i.ibb.co/jgd6Frw/Run-004.png',
+'https://i.ibb.co/S7b6mxh/Run-005.png',
+'https://i.ibb.co/PFzkmtq/Run-006.png',
+'https://i.ibb.co/Nxkxyyn/Run-007.png',
+'https://i.ibb.co/G2htM7C/Run-008.png',
+'https://i.ibb.co/gtmxHzj/Run-009.png'
+];
+
+let player_img = [];
+let game_over = true;
+let weapon_img;
+let weapons = [];
+
+// Blocks
+
+let block_num = 8;
+let blocks = [];
+let vel;
+
+
+
+
+
+
+
+
+
+
+//*°*°*°*°*°*°*°*Classes*°*°*°*°*°*°*°*°*°//
+
+
+
+
+
+
+
+
+
+class Ninja{
+    constructor(x, y, w, h){
+        this.x = x;
+        this.y = y;
+        this.w = w;
+        this.h = h;
+        this.img = player_img;
+        this.index = 0;
+        this.sl_speed = 0.5;
+        this.jumping = false;
+        this.grounded = false;
+        this.speed = 3;
+        this.velY = 0;
+        this.gravity = 0.3;
+    }
+    
+    display(){
+        
+        let index = floor(this.index) % this.img.length;
+        
+        image(this.img[index], this.x, this.y, this.w, this.h);
+    }
+    
+    jump(){
+        if (!this.jumping && this.grounded){
+            this.jumping = true;
+            this.grounded = false;
+            this.velY = - this.speed * 3.2;
+        }
+    }
+    
+    update(){
+        if(!game_over){
+            this.index += this.sl_speed;
+            
+            this.velY += this.gravity;
+            
+            
+            this.y += this.velY;
+            
+            if(this.y < (w - this.height - 1)){
+              this.grounded = false;
+    }
+    
+        }
+        
+        
+        
+    }
+    
+    collidedWith(op){
+            let w1 = (this.x + this.w) - 7;
+            let w2 = op.x + op.w;
+            let h1 = (this.y + this.h) - 5;
+            let h2 = op.y + op.h;
+            
+            if (w1 < w2 && w1 > op.x && h1 < h2 && h1 > op.y){
+                
+                    
+                    collided();
+                
+            }
+            if (w1 > w2 && w2 > this.x && h1 < h2 && h1 > op.y){
+                    
+                    collided();
+                
+            }
+            if (w1 > w2 && w2 > this.x && h1 > h2 && h2 > this.y){
+                    
+                    collided();
+                
+            }
+            if (w1 < w2 && w1 > op.x  && h2 < h1 && h2 > this.y ){
+                    
+                    collided();
+                
+                
+            }
+            
+        }
+    
+}
+
+
+
+function collided(){
+    game_over = true;
+    scores = 0;
+    score.innerText = scores;
+    
+}
+
+
+class Block{
+    constructor(x, y, w, h){
+        this.x = x;
+        this.y = y;
+        this.w = w;
+        this.h = h;
+        this.vel = vel;
+    }
+    
+    display(){
+        rect(this.x, this.y, this.w, this.h);
+    }
+    
+    update(){
+        if (!game_over){
+            if (this.x > - this.w){
+                this.x += this.vel;
+            }
+            else
+            {
+                this.x = w;
+                this.y = random(15, h - random(15,20));
+                this.vel = random(-3.5, -4);
+            }
+        }
+    }
+}
+
+
+
+class Weapon{
+    constructor(x, y, w, h, dir){
+        this.x = x;
+        this.y = y;
+        this.w = w;
+        this.h = h;
+        this.img = weapon_img;
+        this.dir = dir;
+        this.velX = -2;
+        if (this.dir === 'n'){
+            this.velY = -2;
+        }
+        else if (this.dir === 'p'){
+            this.velY = 2;
+        }
+        //this.angle = 20;
+    }
+    
+    display(){
+        //rotate(this.angle);
+        image(this.img, this.x, this.y, this.w, this.h);
+    }
+    
+    update(){
+        if(!game_over){
+            if (this.x > -this.w){
+                this.x += this.velX;
+            }
+            else
+            {
+                this.x = w;
+            }
+            
+            if (this.y < 0){
+                this.velY = - this.velY;
+            }
+            
+            if (this.y > h - this.h){
+                this.velY = - this.velY;
+            }
+            
+            this.y += this.velY;
+            this.x += this.velX;
+            //this.angle += 0.2;
+        }
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+//*°*°**°*°*°*°*°Functions°*°*°*°*°*°*°*°*°//
+
+
+
+
+
+
+
+
+
+function setup(){
+    createCanvas(w, h);
+    
+    
+    player = new Ninja(70, 20, pw, ph);
+    vel = random(-3.5,-4);
+    
+    for (let i = 0; i < block_num; i++){
+        blocks[i] = new Block(random(0, w - (random(80, 100))) + 5, random(15, h - (random(15, 20))) + 20, random(120, 150), random(13,18));
+    }
+    
+    
+    for (let i = 0; i < 2; i++){
+        let arr = ['p', 'n'];
+        weapons[i] = new Weapon(w, h / 2, 30, 30, arr[i]);
+    }
+    
+    let c = document.querySelector('canvas');
+    c.addEventListener('click', e => {
+        player.jump();
+        //console.log('Hi')
+    });
+    
+    
+    if (dom_show){
+        load.style.display = 'none';
+        show.style.display = 'block';
+    }
+    
+    play.addEventListener('click', e => {
+        game_over = false;
+        show.style.display = 'none';
+        restart.style.display = 'none';
+    });
+    
+    
+    t = setInterval(scoreUp, 500);
+    function scoreUp(){
+        scores++;
+        score.innerText = scores;
+    }
+}
+
+function draw(){
+    background(255);
+    
+    fill(20, 70, 80);
+    noStroke();
+    image(bg, -w/2, 0, w*2, h);
+    //rotate(5);
+    
+    //rotate(0);
+    for (let block of blocks){
+        block.display();
+        block.update();
+        
+    }
+    
+    
+    
+    
+    
+    player.display();
+    player.update();
+    
+    
+    for (let w of weapons){
+        w.display();
+        w.update();
+        player.collidedWith(w);
+    }
+    
+    
+    for (let i = 0; i < blocks.length; i++){
+        let dir = colCheck(player, blocks[i]);
+        
+        if (dir === 'b'){
+            player.jumping = false;
+            player.grounded = true;
+            player.velY = 0;
+        }
+        
+        else if (dir === 't'){
+            player.jumping = false;
+            player.velY = 0;
+        }
+        
+        
+        
+    }
+    
+    
+    /*if (player.x < - player.w){
+        player.x = 70;
+        player.y = 20;
+    }
+    */
+    
+    if (player.y > h || player.x < - player.w){
+        game_over = true;
+        scores = 0;
+        score.innerText = scores;
+    }
+    
+    
+    if (player.y > h){
+        player.velY = 0;
+        
+    }
+    
+    if (game_over == true){
+        restart.style.display = 'flex';
+    }
+    
+    
+    restart.addEventListener('click', e => {
+      restart.style.display = 'none';
+      game_over = false;
+      player.x = 70;
+      player.y = 20;  
+      
+      for (let i = 0; i < weapons.length; i++){
+          weapons[i].x = w;
+          weapons[i].y = h/2;
+      }
+      
+      
+    });
+
+}
+
+function preload(){
+    for (let i = 0; i < pl_smash.length; i++){
+        player_img[i] = loadImage('http://cors-anywhere.herokuapp.com/' + pl_smash[i]);
+    }
+    
+    weapon_img = loadImage('http://cors-anywhere.herokuapp.com/' + 'https://i.ibb.co/QDLdsym/Ninja-weapon.png');
+    
+    bg = loadImage('http://cors-anywhere.herokuapp.com/' + 'https://i.ibb.co/ynhZHBY/game-background-2.png');
+    
+    dom_show = true;
+}
+
+
+
+function colCheck(shapeA, shapeB) {
+  // get the vectors to check against
+  var vX = (shapeA.x + (shapeA.w / 2)) - (shapeB.x + (shapeB.w / 2)),
+      vY = (shapeA.y + (shapeA.h / 2)) - (shapeB.y + (shapeB.h / 2)),
+      // add the half widths and half heights of the objects
+      hWidths = (shapeA.w / 2) + (shapeB.w / 2),
+      hHeights = (shapeA.h / 2) + (shapeB.h / 2),
+      colDir = null;
+ 
+    // if the x and y vector are less than the half width or half height, they we must be inside the object, causing a collision
+  if (Math.abs(vX) < hWidths && Math.abs(vY) < hHeights) { // figures out on which side we are colliding (top, bottom, left, or right)
+    var oX = hWidths - Math.abs(vX),
+        oY = hHeights - Math.abs(vY);
+        if (oX >= oY) {
+          if (vY > 0) {
+            colDir = "t";
+              shapeA.y += oY;
+          }
+          else {
+            colDir = "b";
+            shapeA.y -= oY;
+          }
+        } 
+        
+        else {
+          if (vX > 0) {
+            colDir = "l";
+            shapeA.x += oX;
+          }
+          
+          else {
+            colDir = "r";
+            shapeA.x -= oX;
+          }
+        }
+       
+  }
+    return colDir;
+    
+} 
+
+
+
+
+       </script>
+        
+    </body>
+    
+</html>
