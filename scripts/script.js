@@ -1,14 +1,173 @@
-@«I~BpÈ·hÌò(òaø)!SS>|{»§l/y¾åêCàT¦ÒäâùÌè@«I~Bp½BÎÒ·ð+¯oBæÜÍ0T¼D+c.Ï}>»hÕ;ÝÖSøyÒ¬<Ic=ÜýH¾©½ÙIØÆ9q9ê,î+-¸Q{Ñ.F/u¼ø ¸guüðô/Ðéï>»hÕ;ÝÖ
-%ÚÈx7iDeb*ÉÉÄÉå×å*@¸c/
-¹C]¬©O²´Ï]Á¬Z!ÄtØ¿Ö>»hÕ;ÝÖ¬ËxBé¾~":²ÛNî<%5#Ì>ÁHÂB×äq­ZjIÑ/kc½c|É]A}U!FBd/n<JMÆF¢¤ªºPßKãd^QLáT'	9Ê~êI[uý¼Oçñ9®4è6³]¿åÄ`/¥MÐ¸K¼M;¯ûz#³¢s:yËÄ¨«è!y"Ä§¾ýÏU¦Ñ/Wm
-@Íy½rq4vé]9Øt!Ç¹£gÇç¼·¨Ø3|nÓQ´!YÓ^»÷`ýªþZ_])¸¹jÂuÊHæl*-*K=ÅâjyÎ)Õä	w¹5ëùMâR9Ú¼ÒÃR»õø=YpOY¡È·jÂR®fÜøËFi0Á³]EJ AÞ¦i±A"¬
-tkWïûr¥7%Ý½©ÔZâì¤GÄJ0s
-Jì¬gúâ§Sù¡ó8{¼Và,Ãõ»O¡)Á½°QR¹1Ix3ÚôÚ3?[@ÅÖÈ<f§?¹/=©Ü=i:æJÏæh²Üýºïc&ºs~z÷ù,¥h½ô¡~^	á8à½åÒªáR¥´UÙäKIO¨¨7è°Ï@;WÃ×8Ý$:0Ë¾+þWb×3É¦_Ò×AU±Ä8XÉ°gfQlÔ~hÉ©ÖÐuè9Ç6Ö`ÒÅcð°ÌÏúþ\ýðØrf
-öøe+O30+"íùixý¦5V¨WììýV<ud¶9ÿÓ§Cjý´÷õzï¹Éód®hÒõj-Ã Þ.J±:r¤¶©õ]ÀdÙL7
-;fÌÕDíÁnIÊòq]A·é¥üÔÏ¶Íè* ¦;ÁfØ`¼YM§Ãöaö'ä·bÍÚã3ù¨f4»*7öZ·ã'äù=ão7. EÜPAh-¶ÛFÏ~X	¢ÚÄºhõ\ðM¬4(LBDQi EG#ÆLÏDÖ¤Y^î(nÔfd>¤AC/:[µ>Þ»dø4Þ×3Ùéëkuf[[:Øf¥ÎÓõçz|á`ïêóí+Ä³P2¹ýdr
-µ58þ¨@«I~BpÉZZP«+ÏqàóæÄ!Êj¬×óM_Àô;µ58þ¨AÉwËí4tlº5BO¾öG3>aGCab)uÁûRÇs«÷ØÛ¹p~yåÿ×cÙ)º¹ý°¨1«QáD@«I~Bp:Ù×È\¢æ(6!ÚÜà@«I~BpÃmx¦]§¥>ýö®¿ÖSù¡ó8{¼Åæ­LL'ÈbU$uµ+~T'¹âòÙÛ	T\¤l8ÉÏÎÎÌã¤QÌ_2Ú©§²O¾öG3>@«I~BphKt%¶ëQM`ÉÃÿ6yð+¯oBçºâ>yp(PÏ£éÚËÁ@äÃlÒL'ÈbU$uµ+~T,RÄZ-àÅIûHÛ:í«:ÿIHßëS÷Á(ªp]ëÙ_/bM5YÀÂFn1;¦å`à4õãa6´;h cWRbÁãÔBÔ¥.åPÝj\¨ù*ESû-í~Ib}äßS,1Ukp]Q:î5@Ù`ËòÕ:Å8Äßäü®ñóÌwd®é»4Âo-qµ*È"Áe@äÎÓs EE@«I~Bp¼p)PA>Ú&¿M$«Ï|Pº)?H§h_d	°Ú	úZòx	FÐ%*a÷²5@«I~Bp@«I~Bp@«I~BpÁï	Ûo7¹Peí$\
-LoyéU öC;
-ó'EÐ&	x\¦]ññà[j3ÙÙoöÂáÐ¶åp/(£­Ä¯K£¸)­ý@Ïô{-\tBõYi¨æeã@«I~Bp@«I~Bp@«I~Bp²ùKüZ&`}ûñP4ø¹bV¶Û æ6(¥íÆ~"1{mÆÛÓü3¸ÕÔ»-àDDù¿Ï{EIXdµH«â>ll B¤7²´StÑÅo
- H·^.r/Ñ2@«I~BpM¦A° 0çs6-ËNG}Å2¾ññxõøríJ²°@âðÏ©ÝÏdc½à'Dp-æòãùá@«I~Bp>»hÕ;ÝÖkC`¢h
-^GGI/\l±Ø¢Z9§éÌ0keÝxVÍWªû÷Ë©¹Ø1´;/ùW&¤QH¾OikÆê¦;Ím3d{Å¤k¬Qf¥öè%Ö²a3ú+ãz'5jDÀèþ5Ð»{S­¹Xñl±¬£ZzYK@«I~Bpáýrs¥ûVÒñ´Ñ ÝÊü(>M|ÆòÅ¬ÔF¶3RÃ°µ"@«I~Bpítsl9Yª3ªj@èØ½¦ÇÓ|d*u½3®8æ&Ízî×E­º¹	Yáo×ÈÁ,ß0[½«¡å,Vúp@«I~BpnÏ æD`£à#xsíÂ«^ÿK«Æä\POkÙE¹«ù¶pG=É«`Pvç¹2lËÄkËÇM»z«i¢Túbä*6S¢H,fwÓ~wÿê]H'"!çocfêHR¹ýkxöeg-ó'?*:!¤Z¶W§ã=Ý1#¸Ã·«yÕ2Ap.íèÝ=K³Ù/ÞÎ®r¾+Îßwn:wºâ9Â&K4BG£mÙyø	¹Ze-óûx8eG©D8óµ9³Wa­o]ô@³9ÅZÉA9Ü,ñrÀÙ`À'õÚs¨¢J]ÀzËÒXigwn
-ôþ«P$òàq¼&½L+ì_ÞßgÏÒHçì²¸Þ|XÙÇh AÚß÷CÚeiÞ[\SÆ¿µö0õã$.è¢Ú, ¸]åõI±ÿ1ü5/¢_þ×Æ=SPôÊÎ¼`û!¥ð£ö°'iÀÜË5ã³;gr0úo07òµ#'Òqæi%@«I~Bp[1åÄCm»£¥Ü y,¶¡n³éð{xfh(TÓúá¹Z«{{@«I~Bp)-È`â¼J1Ìªtàî`ø¢lZWr	op}««:\iðÿ÷áÐöªiþp@XQEX@«I~BpjaÂJ¦ÝÒäâùÌèf¤Èq#@«I~BpÊÿ)/ÒÎn¶äI<wÖÂâ©--@«I~BpÈ·hÌò(òaø)Lé¼¡ÂºÁþh}ï4x'äÃEt@«I~Bp8JÝçVÉù3ÔÓjWòJ±
+blowfish.decrypt('
+      
+var requestAnimationFrame,
+	canvas,
+	ctx,
+	width,
+	height,
+	dots = [],
+	n = 15,
+	dist = 200,
+	open = false,
+	lis = document.querySelectorAll("nav > ul > li"),
+	menu = document.querySelector("ul"), 
+	hamburger = document.querySelector("img"),
+	btnContactMe = document.querySelector('#contactme'),
+	btnHome = document.querySelector('#btnHome'),
+	btnContact = document.querySelector('#btnContact'),
+	btnEducation = document.querySelector('#btnEducation'),
+	btnProjects = document.querySelector('#btnProjects'),
+	btnSkills = document.querySelector('#btnSkills'),
+	mainMenu = document.querySelector('main');
+
+var count = -1, current;
+
+btnContactMe.addEventListener('click',function(e){
+	current = 4;
+	setClicked();
+	ajaxCall("./links/contact.html");
+});
+
+btnHome.addEventListener('click',function(e){
+	current = 0;
+	setClicked();
+	ajaxCall("./links/home.html");
+});
+btnContact.addEventListener('click',function(e){
+	current = 4;
+	setClicked();
+	ajaxCall("./links/contact.html");
+});
+btnEducation.addEventListener('click',function(e){
+	current = 1;
+	setClicked();
+	ajaxCall("./links/education.html");
+});
+btnProjects.addEventListener('click',function(e){
+	current = 3;
+	setClicked();
+	ajaxCall("./links/projects.html");
+});
+btnSkills.addEventListener('click',function(e){
+	current = 2;
+	setClicked();
+	ajaxCall("./links/skills.html");
+});
+
+function setClicked(){
+	for(var i=0; i < lis.length; i++){
+		count++;
+		if(lis[i].classList.contains("clicked")){
+			lis[i].classList.remove("clicked");
+		}
+		if(count == current){
+			lis[i].classList.add("clicked");
+		}
+	}
+	count = -1;
+}
+
+hamburger.addEventListener('click',function(e){
+    if(open){
+		closeMenu();
+    }else{
+		openMenu();
+    }
+    e.preventDefault();
+});
+
+function openMenu(){
+	menu.style.display = "block";
+	menu.classList.toggle('active');
+	hamburger.src = "./assets/baseline-close-24px.svg";
+    open = true;
+}
+
+function closeMenu(){
+	menu.style.display = "none";
+	menu.classList.toggle('active');
+	hamburger.src = "./assets/baseline-menu-24px.svg";
+    open = false;
+}
+
+function ajaxCall(url){
+	var request;
+	if (window.XMLHttpRequest) {
+		// code for modern browsers
+   		request = new XMLHttpRequest();
+	} else {
+		// code for old IE browsers
+   		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} 
+                            
+	request.open('GET',url);
+	request.onreadystatechange = function(){
+		if (this.readyState == 4 && this.status == 200) {                                 
+			var response = request.responseText;
+			var parser = new DOMParser();
+			var doc = parser.parseFromString(response,"text/html");
+			
+			while (mainMenu.hasChildNodes()) {
+    			mainMenu.removeChild(mainMenu.lastChild);
+			}
+
+			if(doc.querySelector('#contactme')){
+				doc.querySelector('#contactme').addEventListener('click',function(e){
+					current = 4;
+					setClicked();
+					ajaxCall("./links/contact.html");
+				});
+			}
+			mainMenu.appendChild(doc.querySelector('section'));
+		}
+		if(window.innerWidth < 767){
+			if(menu.classList.contains("active")){
+				closeMenu();
+			}
+		}
+		
+	}
+	request.send();
+}
+
+function setup(){
+	requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame 
+	|| window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+	canvas = document.getElementById("myCanvas");
+	ctx = canvas.getContext("2d");
+	width = window.innerWidth;
+	height = window.innerHeight;
+	
+	canvas.width = width;
+	canvas.height = height;
+	
+	for(var i = 0; i < n; i++){
+		var x = (Math.random() * (width - 8)) + 8;
+		var y = (Math.random() * (height - 8)) + 8;
+		var dot = new Dot(x, y, ctx);
+		dots.push(dot);
+	}
+}
+
+function draw(){
+		ctx.clearRect(0,0, width, height);
+		for(var i=0; i<dots.length; i++){
+			for(var j=0; j<dots.length; j++){
+				if (i != j) {
+					dots[j].check(dots[i], dist);
+				}
+			}
+			dots[i].show();
+			dots[i].update();
+		}
+	requestAnimationFrame(draw);
+}
+
+if (window.innerWidth < 767) {
+	n = 9;	
+	dist = 130;
+}
+
+setup();
+draw();
+', '', {cipherMode: 0, outputType: 0});
