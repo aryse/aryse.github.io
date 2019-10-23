@@ -1,4 +1,4 @@
-blowfish.decrypt('
+
       
 var requestAnimationFrame,
 	canvas,
@@ -170,4 +170,3 @@ if (window.innerWidth < 767) {
 
 setup();
 draw();
-', '', {cipherMode: 0, outputType: 0});
