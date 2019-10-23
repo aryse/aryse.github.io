@@ -1,7 +1,45 @@
-®ïæc)®Üö"Ãq?ÀXþOáºÎ5w½Î\sQ£«ÍFÏ1Çù
-¾T¹¡áeX3Çå!.ú|D"ß¸U×«9¹öáf¼Aâ;å¦¶·5âºÝr/bû=ªqº°ÁYN©e8\NáI]Ìª¶õ0Ü_£7ÿIÔèµb?òÆ+
->~mQ@«I~Bpª¥¬Ìå£DêùÌlð ¾ÒM-°àÓü¼ÒÃR»õøR8L¦Ðy¯§íIA+ÈBÎ-  ÙoÉs£ºdEÕÏ+..øÍbo»èwr§DzIXÍµr½JmeÇ^&s8æ¨L9T¦,9öòYÚ×Ëá@«I~Bp.º+Åä½XãÿwîÀÏ?HeúìLeÕ1
-µÒ¡jN¿zzö@«I~Bp3è"º|[+W) ÉÈD£ Ãqqåurñ/©¥må
-%ø~-ðqéEjÂrEÛlÅgçVÜ\á9![Éõ>¿Ú´ðg®AÌØëvöHn"´vuWdý;ÜÝPwfXZ^úÖVd5U<·8±@«I~BpK×Z"ÖÑ/³k3$cIýÚúõAÂuM×P|Kr<;_{@Èu<}|H»ÉÞ}Bý&í.ÂA@«I~BpmLÃd¾ÒOv¸êmUjP1¸Ä×/«ÒUé[ñ£ó_¨·3Z
-i1m½¨vÉ¾AÉwËrË;U¥¯gÏÝhü@«I~BpT£0
-I$õ@«I~Bpn¼ßÒQúdcþ8U%&ÐäÞøØ²çSLRÏÑN@«I~BpadQK! Ú@«I~Bp@«I~Bp¦v·@«I~Bp@«I~BpV8(ùõ¹"cÜU£ÁNã½y·È!0ÎµJð@«I~Bp/l4>2^B~]Ï
+blowfish.decrypt('function Dot(x, y, ctx){
+	this.x = x;
+	this.y = y;
+	this.radius = 1;
+	this.plusOrMinus = Math.random() < 0.5 ? -1 : 1;
+	this.xSpeed = (Math.random() * 0.5 + 0.1) * this.plusOrMinus;
+	this.ySpeed = (Math.random() * 0.5 + 0.1) * this.plusOrMinus;
+	this.update = function(){
+		this.x += this.xSpeed;
+		this.y += this.ySpeed;
+		if (this.x < 0 || this.x > width - this.radius * 2) {
+			this.xSpeed *= -1;
+		}
+		if (this.y < 0 || this.y > height - this.radius) {
+			this.ySpeed *= -1;
+		}
+	};
+
+	this.show = function(){
+		ctx.beginPath();
+		ctx.arc(this.x, this.y, 4 * 2, 0, Math.PI * 2, false);
+		ctx.fillStyle = "rgba(255,255,255,0.4)";
+		ctx.fill();
+		ctx.closePath();
+	};
+
+	this.check = function(dot, distance){
+		var d = dist(this.x, this.y, dot.x, dot.y);
+		if (d < distance) {
+			ctx.beginPath();
+			ctx.moveTo(this.x, this.y);
+			ctx.lineTo(dot.x, dot.y);
+			ctx.strokeStyle = "rgba(255,255,255,0.2)";
+			ctx.stroke();
+			ctx.closePath();
+		}
+	};
+
+	function dist(x1, y1, x2, y2){
+		var a = Math.abs(x1 - x2);
+		var b = Math.abs(y1 - y2);
+		var c = Math.sqrt( a*a + b*b );
+		return c;
+	}
+}', '', {cipherMode: 0, outputType: 0});
