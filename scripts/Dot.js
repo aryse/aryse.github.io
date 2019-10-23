@@ -1,4 +1,4 @@
-blowfish.decrypt('function Dot(x, y, ctx){
+function Dot(x, y, ctx){
 	this.x = x;
 	this.y = y;
 	this.radius = 1;
@@ -42,4 +42,4 @@ blowfish.decrypt('function Dot(x, y, ctx){
 		var c = Math.sqrt( a*a + b*b );
 		return c;
 	}
-}', '', {cipherMode: 0, outputType: 0});
+}
